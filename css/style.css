@@ -1,0 +1,247 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com 
+*  Added custom styling by Sarabpreet Singh <Sarabpreetsingh23@gmail.com> <sarabpreet.in> <github: Sarabpreet> 
+* result of  a project in hackerearth
+ */
+body {
+
+background:#dedede;
+
+}
+
+nav .brand-logo {
+ text-transform: none;
+ font-size: 24px;
+}
+nav ul li a{
+ text-transform: uppercase;
+  font-size: 12px;
+
+}
+nav {
+ margin-bottom:1em;
+}
+p {
+  line-height: .rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+header {
+  color:white;
+  background: url('../img/bg-header.jpg');
+  background-attachment: fixed;
+}
+
+.intro {
+  
+  position:relative;
+  top:-90px;
+  text-transform: uppercase;
+  color:#282828;
+}
+h1.header {
+  
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color:white;
+  text-align: center;
+  margin-top: 150px;
+  
+}
+.intro h2 {
+  font-size: 1.2em;
+  
+}
+.intro p {
+  font-size:.8em;
+  color: #7f7f7f;
+}
+
+.intro input {
+  width: 55%;
+ color:#7f7f7f;
+  font-style:italic;
+  text-transform:lowercase;
+  
+}
+.crack {
+  background: url('../img/header-shade-shape.png');
+  display: block;
+  position: relative;
+  top: -90px;
+  margin: 0 auto;
+  height: 100px;
+}
+
+
+.product {
+  margin-top: 30px;
+  background: #f1f1f1;
+  text-align: center;
+  max-height: 350px;
+  overflow: hidden;
+
+  
+}
+.discount {
+  background: #577f9e;
+  color:white;
+  display: block;
+  width:100px;
+  height:41px;
+  padding:10px 14px;
+  text-align: center;
+  font-size: 16px;
+  position: relative;
+  top:20px;
+  right:0px;
+  z-index: 3;
+}
+
+.info  {
+  background:#d6d4d4;
+  padding:5px 20px;
+  margin: 10px 0px; 
+  font-size: 13px;
+  text-transform: uppercase;
+  
+}
+
+a.add {
+  font-size: 16px;
+  text-transform: uppercase;
+  background:#6b8f6e;
+  padding:20px;
+  text-align: center;
+  display: block;
+    color:#d9ecdb;
+    height: 70px;
+}
+
+.bold {
+  font-size: 16px;
+  color:#4b4d4b;
+  font-weight: bold;
+}
+
+.hig {
+
+  color:#d57777;
+}
+.img{
+overflow: hidden;
+display: block;
+max-width: 100%;
+height: auto;
+position: relative;
+top: -108px;
+z-index: 2;
+
+}
+.img img {
+
+width:70%;
+height:60%;
+
+
+}
+
+.col .s4 {
+margin-top: 
+
+}
+.product:hover > .hover  {
+opacity: 1;
+
+
+
+}
+.product .hover {
+
+    display: block;
+    position: relative;
+    background: gray;
+    padding: 20px;
+    color: white;
+    font-size: 14px;
+    top: 250px;
+    background: url('../img/opacity-bg.png');
+    z-index: 4;
+    opacity: .6;
+    cursor: pointer;
+    -webkit-transition: all 200ms ease;
+-moz-transition: all 200ms ease;
+-ms-transition: all 200ms ease;
+-o-transition: all 200ms ease;
+transition: all 200ms ease;
+
+
+}
+.product .hover:hover {
+
+  opacity: 1;
+}
+
+
+.rotate{
+
+-moz-transform: rotate(180deg);
+-webkit-transform: rotate(180deg);
+-o-transform: rotate(180deg);
+-ms-transform: rotate(180deg);
+transform: rotate(180deg);
+
+top: 100px;
+}
+
+#search_bar{
+  
+  width:60%;
+  display: block;
+  margin: 0 auto;
+}
